@@ -92,9 +92,9 @@ h5{
 }
 
 .sitemap ul{
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
 
 .sitemap ul li a{
@@ -103,4 +103,18 @@ h5{
 
 p{
     margin-bottom: .25em;
+}
+
+.tabs a span {
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: #ddd;
+    padding: 5px;
+}
+
+.tabs a span.active {
+    background: #eee;
 }
